@@ -44,13 +44,13 @@ const result = checkCircleRectangleCollision(circle, rectangle, 45);
 
 console.log(result);
 
-## Return Value
+// Return Value
 
-The function returns either:
+/*The function returns either:
 
-    false — if no collision is detected
+    //false — if no collision is detected
 
-    An object — if a collision is detected:
+    An object — if a collision is detected:*/
 
 // Example output:
 {
