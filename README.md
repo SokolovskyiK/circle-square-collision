@@ -3,6 +3,7 @@
 A standalone JavaScript function that detects collisions between a **circle** and a (possibly rotated) **rectangle**.
 
 This function works purely with **standard DOM elements and math** — no canvas, no libraries required.
+[![View on GitHub Pages](https://img.shields.io/badge/Live-Demo-blue)](https://sokolovskyik.github.io/circle-square-collision/)
 
 ---
 
