@@ -109,7 +109,12 @@ function circleRectCollision(faCircleElement, faRctElement, faRectAngle) {
     const fldy = flCircleCenterY - closestY;
 
     if (fldx * fldx + fldy * fldy < flRadius * flRadius) {
-        const flCollision = { collision: true };
+        const flCollision = {
+            // If we are here the collision has happend. 
+            collision: true,
+            // if no edge is touched, it means the circle is inside the rectangle
+            edge: false,
+        };
 
         // Optional: edge detection
         // Multiple edges can be touched at once, so separate if statements
